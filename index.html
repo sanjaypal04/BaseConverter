@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="converter1">
+        <h3 id="a">From</h3>
+        <select class="selector" id="selector1">
+            <option>Decimal</option>
+            <option>Hexadecimal</option>
+            <option>Octal</option>
+            <option>Binary</option>
+        </select>
+        <textarea class="output" id="op1"></textarea>
+        </div>
+        <button id="btn" onclick="convert()">Convert</button>
+        <div class="converter2">
+            <select class="selector" id="selector2">
+            <option>Decimal</option>
+            <option>Hexadecimal</option>
+            <option>Octal</option>
+            <option>Binary</option>
+        </select>
+        <textarea class="output" id="op2"></textarea>
+        <h3>TO</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

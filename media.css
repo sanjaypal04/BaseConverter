@@ -1,0 +1,60 @@
+@media screen and (max-width: 450px) {
+    
+    #container
+   {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 208vw;
+    justify-content: center;
+    align-items: center;
+
+   }
+    .converter1 {
+        position: relative;
+        display: flex;
+        text-align: center;
+        background-color: black;
+        width: 39vh;
+        height: 4vh;
+        justify-content: center;
+        padding: 10px;
+        top: -36vh;
+        left: 2px;
+        border: none;
+        box-shadow: none;
+    }
+    .converter2 {
+        position: relative;
+        display: flex;
+        text-align: center;
+        background-color: black;
+        width: 39vh;
+        height: 4vh;
+        justify-content: center;
+        padding: 10px;
+        top: 1vh;
+        left: 2px;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .selector {
+      position: absolute;
+      top: 52px;
+      width: 41.5vh;
+      height: 10vh;
+      font-size: 20px;
+      background-color: gray;
+      color: floralwhite;
+      margin-bottom: 7px;
+    }
+
+    .output {
+        position: absolute;
+        top: 132px;
+        height: 20vh;
+        width: 41.3vh;
+    }
+}
